@@ -1,0 +1,194 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(to right, #2c3e50, #bdc3c7); */
+  background: linear-gradient(to right, #66776d, #394750, #3f4569);
+
+  /* background: linear-gradient(to right, #009fff, #ec2f4b); */
+}
+
+#videoElement {
+  margin-top: 520px;
+  margin-left: 360px;
+  width: 50%;
+
+  position: absolute;
+  border-radius: 22px;
+  border: dimgray solid 4px;
+}
+
+canvas {
+  position: absolute;
+  margin-top: 520px;
+  margin-left: 360px;
+  width: 650px;
+  height: 540px;
+}
+
+h1 {
+  margin: 16px;
+  padding: 3px;
+  font-size: 60px;
+  border-radius: 20px;
+  text-align: center;
+  color:white;
+  text-shadow: 2px 2px rgb(163, 163, 163);
+  opacity: .9;
+  background: linear-gradient(to right,#535b86,  #394750 ,#8b9e93);
+  /* background: linear-gradient(to right, #ec2f4b, #009fff); */
+}
+
+.theory1 {
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  width: 40%;
+  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+
+  /* background: linear-gradient(to right, #74ebd5, #acb6e5); */
+  /* background: linear-gradient(to right, #19547b, #ffd89b); */
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.theory1:hover {
+  transition: 0.7s;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.theory2 {
+  position: absolute;
+  top: 550px;
+  left: 40px;
+  width: 40%;
+  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  /* background: linear-gradient(to right, #74ebd5, #acb6e5); */
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.theory2 h3 {
+  font-size: 40px;
+}
+
+.theory2:hover {
+  transition: 0.7s;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.theory3 {
+  position: absolute;
+  top: 930px;
+  left: 40px;
+  width: 40%;
+  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  /* background: linear-gradient(to right, #74ebd5, #acb6e5); */
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.theory3 h3 {
+  font-size: 40px;
+}
+
+.theory3:hover {
+  transition: 0.7s;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+h3 {
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #616c83;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+.para {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(44, 53, 52);
+  font-family: "Righteous", cursive;
+  width: 100%;
+}
+
+.image_classi_btn {
+  top: 912px;
+  right: 50px;
+  position: absolute;
+  display: inline-block;
+  padding: 15px 25px;
+  cursor: pointer;
+
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+
+  outline: none;
+  color: #fff;
+  background-color: #2f9188;
+  background: linear-gradient(to right, #267871, #136a8a);
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.image_classi_btn:hover {
+  background-color: #1e5f5a;
+  background: linear-gradient(to right, #35a097, #1c8ab3);
+  box-shadow: 0 9px rgb(219, 214, 214);
+}
+
+.image_classi_btn:active {
+  background-color: #267871;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.home_btn {
+  top: 912px;
+  right: 480px;
+  position: absolute;
+  display: inline-block;
+  padding: 15px 25px;
+
+  cursor: pointer;
+
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+
+  outline: none;
+  color: #fff;
+  background-color: #167ba0;
+  background: linear-gradient(to right, #136a8a, #267871);
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.home_btn:hover {
+  background-color: #115a75;
+  background: linear-gradient(to right, #1c8ab3, #35a097);
+  box-shadow: 0 9px rgb(219, 214, 214);
+}
+
+.home_btn:active {
+  background-color: #136a8a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
