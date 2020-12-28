@@ -62,7 +62,7 @@ async function start() {
 
 function loadLabeledImages()
 {
-    const labels = ['Abhishek','Akshay Kumar','Amitabh bachchan','Amitshah','CM shivraj','CM Yogi','Irrfan Khan','nawazuddin siddiqui','pankaj tripathi','PM Modi','Rahul Gandhi','Sushant Singh','Tapsee Pannu']
+    const labels = ['Abhishek','Akshay Kumar','Amitabh bachchan','Amitshah','CM shivraj','CM Yogi','Irrfan Khan','nawazuddin siddiqui','pankaj tripathi','PM Modi','Rahul gandhi','Sushant Singh','Tapsee Pannu']
 
     return Promise.all
     (
